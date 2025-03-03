@@ -15,7 +15,7 @@ This repository contains:
 #### Model Evaluation
 There are three models in the paper which had results analysed. These are the Random Forest, ChemProp and MolFormer ensemblemodels seen in Figure 4.
 
-The saved models can be downloaded from zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14960323.svg)](https://doi.org/10.5281/zenodo.14960323)
+The saved models can be downloaded from zenodo: https://zenodo.org/records/14960323
 
 These models should be downloaded and saved in the repository, by default the paths are set to look for them in the "model_checkpoints" folder but you can also pass your own path as a command line argument. 
 
