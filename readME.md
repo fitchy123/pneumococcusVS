@@ -6,7 +6,7 @@ Dataset for this study is compiled from ChEMBL and PubChem.
 
 #### Repository Structure
 This repository contains:
-- Pre-processed dataset used in the paper (processed_datasets/10uM_FP_clustered__resistant_pneumococcus_augmented_dataset.csv)
+- Pre-processed dataset used in the paper (processed_datasets/10uM_FP_clustered_resistant_pneumococcus_augmented_dataset.csv)
 - Instructions for obtaining saved models (README.md)
 - Code for evaluating models (models/)
 - Instructions for running evaluation (README.md)
@@ -15,7 +15,8 @@ This repository contains:
 #### Model Evaluation
 There are three models in the paper which had results analysed. These are the Random Forest, ChemProp and MolFormer ensemblemodels seen in Figure 4.
 
-The saved models can be downloaded from the following google drive link: (add link later)
+The saved models can be downloaded from zenodo: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14960323.svg)](https://doi.org/10.5281/zenodo.14960323)
+
 These models should be downloaded and saved in the repository, by default the paths are set to look for them in the "model_checkpoints" folder but you can also pass your own path as a command line argument. 
 
 Below are the commands to run the evaluation for each model:
